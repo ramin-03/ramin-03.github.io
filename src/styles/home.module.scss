@@ -1,0 +1,13 @@
+.root {
+  display: grid;
+  gap: 1rem;
+  grid-template-areas: 'general-info' 'skills-summary' 'key-skills' 'experience' 'additional-enhancements';
+  @media (min-width: 50rem) {
+    grid-template-columns: 65fr 35fr;
+    grid-template-areas:
+      'general-info key-skills'
+      'skills-summary skills-summary'
+      'experience experience'
+      'additional-enhancements additional-enhancements';
+  }
+}

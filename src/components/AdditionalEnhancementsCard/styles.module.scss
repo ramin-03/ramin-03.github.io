@@ -1,0 +1,14 @@
+.root {
+  grid-area: additional-enhancements;
+}
+
+.list {
+  color: var(--text-secondary-color);
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+  font-size: 0.9375rem;
+  strong {
+    color: var(--text-primary-color);
+  }
+}
