@@ -33,10 +33,14 @@ const GeneralInfoCard: FC<GeneralInfoCardProps> = ({ data }) => (
           <a href={`mailto:${data.email}`}>{data.email}</a>
         </dd>
 
-        <dt>{data.mobileLabel}</dt>
-        <dd>
-          <a href={`tel:${data.mobile}`}>{data.formattedMobile}</a>
-        </dd>
+        {process.env.NODE_ENV === 'development' && (
+          <>
+            <dt>{data.mobileLabel}</dt>
+            <dd>
+              <a href={`tel:${data.mobile}`}>{data.formattedMobile}</a>
+            </dd>
+          </>
+        )}
 
         <dt>{data.LinkedinLabel}</dt>
         <dd>

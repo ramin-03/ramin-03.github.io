@@ -7,11 +7,11 @@ export const data: DataModel = {
   },
   generalInfo: {
     fullName: 'Ramin Ashouri',
-    formattedMobile: '+1 778 970 3373',
+    formattedMobile: process.env.NEXT_PUBLIC_PHONE_NUMBER ?? "",
     emailLabel: 'Email',
     email: 'ramin.ashouritaghi@gmail.com',
     mobileLabel: 'Mobile',
-    mobile: '+17789703373',
+    mobile: (process.env.NEXT_PUBLIC_PHONE_NUMBER ?? "").replace(/\s/g, ""),
     LinkedinLabel: 'Linkedin',
     Linkedin: 'Ramin Ashouri',
     githubLabel: 'Github',
