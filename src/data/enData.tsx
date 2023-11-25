@@ -69,7 +69,7 @@ export const data: DataModel = {
     noEndDateText: 'October 2023',
     items: [
       {
-        title: 'Intelligence Advance Solutions (Asre DaneshAfzar)',
+        title: 'Intelligence Advance Solutions',
         position: 'Frontend developer',
         startDate: 'January 2023',
         ISOStartDate: '2023-01-05T00:00:00.000Z',
@@ -131,9 +131,11 @@ export const data: DataModel = {
           <>
             Utilized <strong>Gulp</strong> to optimize the first-time interactive experience.
           </>,
+          <>Achieved a 15% improvement in Parasteh's initial load time, enhancing user satisfaction.</>,
           <>
             Implemented <strong>performance optimization</strong> techniques for faster website loading.
           </>,
+          <>Enhanced the project's accessibility, resulting in a 20% increase in overall user engagement.</>,
           <>
             Ensured <strong>cross-browser compatibility</strong> for a consistent user experience.
           </>,
@@ -160,10 +162,18 @@ export const data: DataModel = {
           <>Contributed significantly to the redesign and development of a jewelry marketplace using WordPress.</>,
           <>Collaborated effectively in redesigning sections like the Product Page and Collection Page.</>,
           <>Developed complex UI components such as a form generator and online file system UI.</>,
+          <>
+            Ensured cross-browser compatibility, resulting in a 12% reduction in user-reported issues across different
+            browsers.
+          </>,
           <>Improved user experience by enhancing initial load time and resolving issues with fast refresh.</>,
           <>
             Improved javascript performance by transitioning from <strong>jQuery</strong> to
             <strong> vanilla javascript</strong> and using tools like <strong>Gulp</strong>.
+          </>,
+          <>
+            Successfully implemented responsive design principles, leading to a 25% improvement in mobile user
+            experience.
           </>,
           <>
             Implemented <strong>responsive design</strong> principles for optimal viewing across various devices.
@@ -172,19 +182,5 @@ export const data: DataModel = {
         techStack: ['HTML', 'SASS', 'Gulp', 'Figma', 'Git', 'PHP', 'Javascript', 'jQuery', 'Wordpress'],
       },
     ],
-  },
-  AdditionalEnhancements: {
-    title: 'Additional Enhancements',
-    points: [
-      <>Achieved a 15% improvement in Parasteh's initial load time, enhancing user satisfaction.</>,
-      <>Enhanced the project's accessibility, resulting in a 20% increase in overall user engagement.</>,
-      <>
-        Successfully implemented responsive design principles, leading to a 25% improvement in mobile user experience.
-      </>,
-      <>
-        Ensured cross-browser compatibility, resulting in a 12% reduction in user-reported issues across different
-        browsers.
-      </>,
-    ],
-  },
+  }
 }

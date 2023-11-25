@@ -5,7 +5,6 @@ import ExperienceCard from '@/components/ExperienceCard'
 import GeneralInfoCard from '@/components/GeneralInfoCard'
 import KeySkillsCard from '@/components/KeySkillsCard'
 import SkillsSummaryCard from '@/components/SkillsSummaryCard'
-import AdditionalEnhancementsCard from '@/components/AdditionalEnhancementsCard'
 import { data } from '@/data/enData'
 import styles from '@/styles/home.module.scss'
 
@@ -20,7 +19,6 @@ const IndexPage: NextPage = () => (
       <SkillsSummaryCard data={data.skillsSummary} />
       <KeySkillsCard data={data.keySkills} />
       <ExperienceCard data={data.experience} />
-      <AdditionalEnhancementsCard data={data.AdditionalEnhancements} />
     </Container>
   </>
 )
