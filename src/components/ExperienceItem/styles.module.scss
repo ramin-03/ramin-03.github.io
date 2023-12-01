@@ -47,7 +47,8 @@
 }
 .techStackItem {
   box-shadow: var(--box-shadow);
-  background-color: var(--background-color);
+  background-color: #212121;
+  color: #fff;
   border-radius: 1000px;
   padding-block: 0.25rem;
   padding-inline: 0.75rem;
@@ -55,6 +56,7 @@
 }
 
 .points {
+  page-break-inside: avoid;
   margin-block-end: 0.625rem;
   color: var(--text-secondary-color);
   font-size: 0.875rem;
