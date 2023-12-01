@@ -27,10 +27,11 @@ export const data: DataModel = {
       'Sass',
       'React',
       'webpack',
+      'Jest',
       'rollup',
       'Git',
       'Shopify',
-      'Wordpress',
+      'WordPress',
       'Gulp',
     ],
     title: 'Key skills',
@@ -46,7 +47,7 @@ export const data: DataModel = {
         Technologies: Extensive experience with
         <strong>
           {' '}
-          HTML, CSS, TypeScript, JavaScript, React, Sass, webpack, rollup, Git, Shopify, Wordpress, Gulp.
+          HTML, CSS, TypeScript, JavaScript, React, Sass, webpack, rollup, Git, Shopify, WordPress, Gulp.
         </strong>
       </>,
       <>
@@ -73,7 +74,7 @@ export const data: DataModel = {
         position: 'Frontend developer',
         startDate: 'January 2023',
         ISOStartDate: '2023-01-05T00:00:00.000Z',
-        location: 'Remote to Czech',
+        location: 'Czech - Remote',
         url: 'https://iasolution.cz/',
         description: (
           <>
@@ -103,7 +104,7 @@ export const data: DataModel = {
             users with disabilities.
           </>,
         ],
-        techStack: ['Typescript', 'React', 'Preact', 'Shopify', 'SASS', 'Rollup', 'Shopify'],
+        techStack: ['Typescript', 'React', 'Preact', 'Shopify', 'Sass', 'Rollup', 'Shopify'],
       },
       {
         title: 'Parasteh',
@@ -125,7 +126,7 @@ export const data: DataModel = {
           <>Customized and developed a WordPress theme for a prominent Jewelry E-commerce website.</>,
           <>Improved user experience and initial load time, collaborating closely with SEO and marketing managers.</>,
           <>
-            Transitioned from <strong>jQuery</strong> to <strong>vanilla javascript</strong> for enhanced javascript
+            Transitioned from <strong>jQuery</strong> to <strong>vanilla JavaScript</strong> for enhanced JavaScript
             performance and reduced bundle size.
           </>,
           <>
@@ -140,7 +141,7 @@ export const data: DataModel = {
             Ensured <strong>cross-browser compatibility</strong> for a consistent user experience.
           </>,
         ],
-        techStack: ['Javascript', 'HTML', 'SASS', 'Figma', 'Git', 'PHP', 'Gulp', 'Bootstrap', 'Wordpress'],
+        techStack: ['JavaScript', 'HTML', 'Sass', 'Figma', 'Git', 'PHP', 'Gulp', 'Bootstrap', 'WordPress'],
       },
       {
         title: 'Talabash',
@@ -168,8 +169,8 @@ export const data: DataModel = {
           </>,
           <>Improved user experience by enhancing initial load time and resolving issues with fast refresh.</>,
           <>
-            Improved javascript performance by transitioning from <strong>jQuery</strong> to
-            <strong> vanilla javascript</strong> and using tools like <strong>Gulp</strong>.
+            Improved JavaScript performance by transitioning from <strong>jQuery</strong> to
+            <strong> vanilla JavaScript</strong> and using tools like <strong>Gulp</strong>.
           </>,
           <>
             Successfully implemented responsive design principles, leading to a 25% improvement in mobile user
@@ -179,7 +180,7 @@ export const data: DataModel = {
             Implemented <strong>responsive design</strong> principles for optimal viewing across various devices.
           </>,
         ],
-        techStack: ['HTML', 'SASS', 'Gulp', 'Figma', 'Git', 'PHP', 'Javascript', 'jQuery', 'Wordpress'],
+        techStack: ['HTML', 'Sass', 'Gulp', 'Figma', 'Git', 'PHP', 'JavaScript', 'jQuery', 'WordPress'],
       },
     ],
   }

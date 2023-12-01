@@ -1,5 +1,8 @@
 {
-  "cSpell.words": ["clsx"],
+  "cSpell.words": [
+    "Ashouri",
+    "clsx"
+  ],
   "files.eol": "\n",
   "files.exclude": {
     "**/.git": true,
