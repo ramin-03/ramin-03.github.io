@@ -7,11 +7,11 @@ export const data: DataModel = {
   },
   generalInfo: {
     fullName: 'Ramin Ashouri',
-    formattedMobile: process.env.NEXT_PUBLIC_PHONE_NUMBER ?? "",
+    formattedMobile: process.env.NEXT_PUBLIC_PHONE_NUMBER ?? '',
     emailLabel: 'Email',
     email: 'ramin.ashouritaghi@gmail.com',
     mobileLabel: 'Mobile',
-    mobile: (process.env.NEXT_PUBLIC_PHONE_NUMBER ?? "").replace(/\s/g, ""),
+    mobile: (process.env.NEXT_PUBLIC_PHONE_NUMBER ?? '').replace(/\s/g, ''),
     LinkedinLabel: 'Linkedin',
     Linkedin: 'Ramin Ashouri',
     githubLabel: 'Github',
@@ -22,10 +22,11 @@ export const data: DataModel = {
     skills: [
       'TypeScript',
       'JavaScript',
+      'React',
       'HTML',
       'CSS',
       'Sass',
-      'React',
+      'PHP',
       'webpack',
       'Jest',
       'rollup',
@@ -33,6 +34,9 @@ export const data: DataModel = {
       'Shopify',
       'WordPress',
       'Gulp',
+      'Bootstrap',
+      'Tailwind CSS',
+      'Figma',
     ],
     title: 'Key skills',
   },
@@ -47,12 +51,12 @@ export const data: DataModel = {
         Technologies: Extensive experience with
         <strong>
           {' '}
-          HTML, CSS, TypeScript, JavaScript, React, Sass, webpack, rollup, Git, Shopify, WordPress, Gulp.
+          HTML, CSS, TypeScript, JavaScript, React,Jest, PHP, Sass, webpack, rollup, Git, Shopify, WordPress, Gulp.
         </strong>
       </>,
       <>
-        Developer Experience: 3 years of experience in creating <strong>user-friendly interfaces</strong>, facilitating
-        smooth collaboration, and code integration.
+        Developer Experience: <strong>4 years of experience</strong> in creating
+        <strong> user-friendly interfaces</strong>, facilitating smooth collaboration, and code integration.
       </>,
       <>
         Team Collaboration: Strong teamwork skills, adept at working effectively as part of a team, using
@@ -107,43 +111,6 @@ export const data: DataModel = {
         techStack: ['Typescript', 'React', 'Preact', 'Shopify', 'Sass', 'Rollup', 'Shopify'],
       },
       {
-        title: 'Parasteh',
-        position: 'Frontend Developer',
-        startDate: 'December 2021',
-        ISOStartDate: '2021-12-02T00:00:00.000Z',
-        endDate: 'January 2023',
-        ISOEndDate: '2023-01-02T00:00:00.000Z',
-        location: 'Tehran - Iran',
-        url: 'https://parasteh.com/',
-        description: (
-          <>
-            As a Frontend Developer at Parasteh, a prominent Jewelry <strong>E-commerce</strong> Website, I collaborated
-            within a team to achieve significant milestones in the <strong>redesign and development</strong> of critical
-            sections, including the Product Page and Collection Page. Notable contributions include:
-          </>
-        ),
-        points: [
-          <>Customized and developed a WordPress theme for a prominent Jewelry E-commerce website.</>,
-          <>Improved user experience and initial load time, collaborating closely with SEO and marketing managers.</>,
-          <>
-            Transitioned from <strong>jQuery</strong> to <strong>vanilla JavaScript</strong> for enhanced JavaScript
-            performance and reduced bundle size.
-          </>,
-          <>
-            Utilized <strong>Gulp</strong> to optimize the first-time interactive experience.
-          </>,
-          <>Achieved a 15% improvement in Parasteh's initial load time, enhancing user satisfaction.</>,
-          <>
-            Implemented <strong>performance optimization</strong> techniques for faster website loading.
-          </>,
-          <>Enhanced the project's accessibility, resulting in a 20% increase in overall user engagement.</>,
-          <>
-            Ensured <strong>cross-browser compatibility</strong> for a consistent user experience.
-          </>,
-        ],
-        techStack: ['JavaScript', 'HTML', 'Sass', 'Figma', 'Git', 'PHP', 'Gulp', 'Bootstrap', 'WordPress'],
-      },
-      {
         title: 'Talabash',
         position: 'Frontend Developer',
         startDate: 'November 2021',
@@ -182,6 +149,48 @@ export const data: DataModel = {
         ],
         techStack: ['HTML', 'Sass', 'Gulp', 'Figma', 'Git', 'PHP', 'JavaScript', 'jQuery', 'WordPress'],
       },
+      {
+        title: 'Parasteh',
+        position: 'Full-stack Developer',
+        startDate: 'December 2020',
+        ISOStartDate: '2020-12-02T00:00:00.000Z',
+        endDate: 'January 2023',
+        ISOEndDate: '2023-01-02T00:00:00.000Z',
+        location: 'Tehran - Iran',
+        url: 'https://parasteh.com/',
+        description: (
+          <>
+            As a Frontend Developer at Parasteh, a prominent Jewelry <strong>E-commerce</strong> Website, I collaborated
+            within a team to achieve significant milestones in the <strong>redesign and development</strong> of critical
+            sections, including the Product Page and Collection Page. Notable contributions include:
+          </>
+        ),
+        points: [
+          <>
+            Redesigned and developed the full e-commerce site from <strong>front-end</strong> to{' '}
+            <strong>back-end</strong>, including key pages like Product, Collection, Cart and Checkout.
+          </>,
+          <>
+            Improved performance by optimizing assets, minimizing bundle sizes, caching API calls, indexing databases,
+            and configuring a content delivery network. Initial load time improved by <strong>50%</strong> and
+            time-to-interaction dropped below <strong>1s</strong>.
+          </>,
+          <>
+            Transitioned the legacy <strong>jQuery/PHP</strong> codebase to a modular modern architecture using{' '}
+            <strong>vanilla JS</strong> for the front-end and a <strong>RESTful JSON API</strong> for the back-end.
+            Refactored over <strong>10,000 lines of code</strong> to increase reusability, readability and
+            maintainability
+          </>,
+          <>
+            Achieved a <strong>15%</strong> improvement in Parasteh's initial load time, enhancing user satisfaction.
+          </>,
+          <>
+            Worked directly with marketing to understand business goals and user needs. Leveraged analytics to optimize
+            key experiences like browsing, searching and checkout conversions across the full user journey.
+          </>,
+        ],
+        techStack: ['JavaScript', 'HTML', 'Sass', 'Figma', 'Git', 'PHP', 'Gulp', 'Bootstrap', 'WordPress'],
+      },
     ],
-  }
+  },
 }
