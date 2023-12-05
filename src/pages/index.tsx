@@ -13,7 +13,19 @@ const IndexPage: NextPage = () => (
     <Head>
       <title>{data.head.title}</title>
       <meta name="description" content={data.head.description} />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"
+      />
     </Head>
+    <a
+      className="github-fork-ribbon"
+      href="https://github.com/ramin-03/ramin-03.github.io"
+      data-ribbon="Fork me on GitHub"
+      title="Source code on Github"
+    >
+      Source code on Github
+    </a>
     <Container className={styles.root}>
       <GeneralInfoCard data={data.generalInfo} />
       <SkillsSummaryCard data={data.skillsSummary} />

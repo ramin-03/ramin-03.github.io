@@ -28,3 +28,12 @@ dd,
 dt {
   margin: 0;
 }
+
+.github-fork-ribbon {
+  &::before {
+    background-color: #121621;
+  }
+  &::after {
+    content: 'View on GitHub';
+  }
+}
