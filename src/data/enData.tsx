@@ -9,7 +9,7 @@ export const data: DataModel = {
     fullName: 'Ramin Ashouri',
     formattedMobile: process.env.NEXT_PUBLIC_PHONE_NUMBER ?? '',
     emailLabel: 'Email',
-    email: 'ramin.ashouritaghi@gmail.com',
+    email: 'rn.ashouri@gmail.com',
     mobileLabel: 'Mobile',
     mobile: (process.env.NEXT_PUBLIC_PHONE_NUMBER ?? '').replace(/\s/g, ''),
     LinkedinLabel: 'Linkedin',
